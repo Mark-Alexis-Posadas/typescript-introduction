@@ -1,7 +1,18 @@
-function sum(paramOne: number, paramTwo: number) {
-  return paramOne * paramTwo;
+function calculateSum(paramOne: number, paramTwo: number): number {
+  let result = paramOne * paramTwo;
+  return result;
 }
-const numOne = 20;
-const numTwo = 30;
+const numeOne: number = 3;
+const numTwo: number = 2;
 
-console.log(sum(numOne, numTwo));
+console.log(calculateSum(numeOne, numTwo));
+
+function simpleTypes(firstName: string, lastName: string, age: number): string {
+  return `${firstName} ${lastName} age - ${age}`;
+}
+
+const firstName: string = "Mark Alexis";
+const lastName: string = "Posadas";
+const age: number = 30;
+
+console.log(simpleTypes(firstName, lastName, age));
