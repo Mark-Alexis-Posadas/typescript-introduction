@@ -1,6 +1,7 @@
-var fruits = ["banana", "apple", "orange"];
-var numbers = [1, 2, 3, 4, 5];
-var personalDetails = [
+"use strict";
+const fruits = ["banana", "apple", "orange"];
+const numbers = [1, 2, 3, 4, 5];
+const personalDetails = [
     {
         firstName: "Alexis",
         age: 30,

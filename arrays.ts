@@ -1,13 +1,13 @@
 const fruits: string[] = ["banana", "apple", "orange"];
 const numbers: number[] = [1, 2, 3, 4, 5];
 
-interface Details {
+interface PersonalDetails {
   firstName: string;
   age: number;
   isGf: boolean;
   favoriteAnimals: string[];
 }
-const personalDetails = [
+const personalDetails: PersonalDetails[] = [
   {
     firstName: "Alexis",
     age: 30,
